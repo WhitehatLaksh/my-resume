@@ -69,3 +69,10 @@ GitHub will provide a URL for your site, like `https://your-username.github.io/m
 ## Step 4: Access Your Resume Online
 
 Visit the URL provided in the GitHub Pages settings to view your resume live. Any updates you make to `index.html` or `style.css` and push to GitHub will automatically refresh on the live site.
+
+*******
+
+1. Create a TXT record in your DNS configuration for the following hostname: _github-pages-challenge-WhitehatLaksh.my-resume.com
+2. Use this code for the value of the TXT record: 04d8e1cee10127f00d2764f3e3bbcc
+3. Wait until your DNS configuration changes. This could take up to 24 hours to propagate.
+
