@@ -1,0 +1,101 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Navigation Styling */
+header nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #007acc;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #005b99;
+}
+
+/* Header Details */
+header .details {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header .details h1 {
+    font-size: 2.5em;
+    color: #007acc;
+}
+
+header .details p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Main Section Styling */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 1.8em;
+    color: #007acc;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #007acc;
+    padding-bottom: 5px;
+}
+
+.education-item, .service-item {
+    margin-top: 10px;
+}
+
+.education-item h3, .service-item h3 {
+    font-size: 1.4em;
+    color: #333;
+}
+
+.education-item p, .service-item p {
+    margin-top: 5px;
+    font-size: 1em;
+    color: #666;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 20px;
+    padding: 10px;
+}
